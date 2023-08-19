@@ -1,0 +1,71 @@
+.topic-section-wrapper{
+    margin-top: 250px;
+}
+.topic-custome img{
+    transition: .5s;
+    border-radius: 6px;
+    border-bottom: 1px solid lightgray;
+    /* width: 100%; */
+    display: block;
+}
+.topic-custome .card-body{
+    position: relative;
+}
+.topic-custome .card-header{
+    overflow: hidden;
+}
+.topic-custome .card{
+    box-shadow: 0px 0px 10px 2px rgb(240, 240, 255);
+    border-radius: 6px;
+}
+.topic-custome img:hover{
+    transform: scale(1.4) rotate(10deg);
+}
+.topic-custome .card .card-body{
+    margin: 32px 10px;
+    text-align: center;
+}
+.topic-custome .card-body a{
+    font-size: 16px;
+}
+.topic-custome .post-date{
+    position: absolute;
+    top: -50px;
+    right: 10px;
+    width: 8%;
+    /* font-size: 14px; */
+    font-size: 70%;
+}
+.topic-custome .post-date div:first-child{
+    background-color: orange;
+    color: whitesmoke;
+}
+.topic-custome .post-date div:last-child{
+    background-color: rgb(239, 239, 239);
+}
+.topic-custome .card-body p{
+    font-size: 12px;
+    padding-top: 15px;
+}
+.topic-custome .card-footer{
+    text-align: center;
+    color: rgb(190, 189, 189);
+    font-size: 14px;
+    border-top: 1px solid rgb(234, 234, 234);
+    padding-top: 10px;
+}
+.topic-custome .card-footer ul li{
+    display: inline-block;
+}
+.topic-custome .card-footer .icon-caption{
+    vertical-align: 6px;
+}
+.topic-custome .card-footer .icon-section-center{
+    padding: 0 8px;
+}
+.topic-custome .card-footer i{
+    font-size: 20px;
+}
+.topic-custome .card-footer .icon-caption{
+    font-size: 12px;
+}

@@ -1,0 +1,55 @@
+.teachers-section-wrapper{
+    background-image:url('../img/dirty-pattern-paint-room-block.jpg') ;
+    height: auto;
+    margin-top: 250px;
+    background-size: cover;
+}
+.teachers-section-wrapper img{
+    width: 100%;
+}
+.teachers-intro-parrent{
+    position: relative;
+}
+.teachers-intro-child{
+    position: absolute;
+    background-color: whitesmoke;
+    top: 110%;
+    left: 50%;
+    transform: translate(-50%,-50%);
+    width: 80%;
+    height: auto;
+    box-shadow: 0px 0px 10px 2px lightgray;
+    border-radius: 50px;
+    text-align: center;
+}
+.teachers-intro-child h3{
+    text-align: center;
+    margin: 20px 0 90px 0;
+}
+.teachers-intro-child a{
+    color: whitesmoke;
+    margin-bottom: 20px;
+    display: inline-block;
+    background-color: rgb(253, 181, 48);
+    padding: 5px 8px;
+    border-radius: 8px;
+    font-size: 14px;
+    transition: .5s;
+}
+.teachers-intro-child a:hover{
+    background-color: orange;
+    box-shadow: 0px 0px 5px 0px rgb(253, 133, 86);
+}
+@media screen and (max-width:767px){
+    .teachers-intro-child{
+        border-radius: 30px;
+    }
+    .teachers-intro-child h3{
+        margin: 10px 0 40px 0;
+        font-size: 14px;
+    }
+    .teachers-intro-child a{
+        font-size: 10px;
+        margin-bottom: 10px;
+    }
+}

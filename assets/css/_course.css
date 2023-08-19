@@ -1,0 +1,74 @@
+.course-title{
+    text-align: center;
+    margin: 50px;
+}
+.course-title span{
+    position: relative;
+    display: inline-block;
+}
+.course-title span::before{
+    position:absolute;
+    content: '';
+    width: 40px;
+    height: 4px;
+    background-color: orange;
+    top: 12px;
+    right: -50px;
+}
+.course-title span::after{
+    position:absolute;
+    content: '';
+    width: 40px;
+    height: 4px;
+    background-color: orange;
+    top: 12px;
+    right: 115px;
+}
+.cards{
+    box-shadow: 0px 0px 10px 0px #c0c0c0;
+    border: 1px solid rgb(237, 237, 237);
+    border-radius: 8px;
+   color: whitesmoke;
+}
+.cards .card-header img{
+    width: 100%;
+    border-radius:7px ;
+    display: block;
+    
+}
+.cards .card-body{
+    /* position: relative; */
+    text-align: center;
+    color: whitesmoke;
+    padding: 20px;
+}
+.cards .card-header{
+    position: relative;
+}
+.cards .card-header .card-overlay{
+    position: absolute;
+    background-color: rgba(0, 0, 0, .5);
+    width: 100%;
+    height: 100%;
+    top: 0;
+    right: 0;
+    opacity: 0;
+    transition: 0.5s;
+}
+.cards:hover .card-overlay{
+    opacity: 1;
+    border-radius:6px ;
+}
+.cards .card-overlay p{
+    color: whitesmoke;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%,-50%);
+    font-size: 30px;
+    font-weight: bold;
+}
+.mb-20{
+    margin-bottom:20px;
+}
+

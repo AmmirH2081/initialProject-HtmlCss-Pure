@@ -1,0 +1,52 @@
+.container-fluid-custome{
+    background-color: #041121;
+    color: whitesmoke;
+    height: 40px;
+}
+.container-fluid-custome .contact{
+    font-size: 14px;
+}
+.container-fluid-custome .contact i{
+    color: orange;
+    vertical-align: -10px;
+    /* margin-right: 15px; */
+    /* margin-left: 15px; */
+    padding-left: 8px;
+}
+.container-fluid-custome .contact span{
+    color: white;
+    /* margin: 5px; */
+    vertical-align: 1px;
+}
+.container-fluid-custome .social-media{
+    direction: ltr;
+}
+.container-fluid-custome .social-media i{
+    color: whitesmoke;
+    vertical-align: -8px;
+    transition: 0.5s;
+    padding: 5px;
+}
+.container-fluid-custome .social-media a:nth-child(1) i:hover{
+    color: #32A5E0;
+}
+.container-fluid-custome .social-media a:nth-child(2)  i:hover{
+    color: #F200CD;
+}
+.container-fluid-custome .social-media a:nth-child(3)  i:hover{
+    color: #32A5E0;
+}
+.container-fluid-custome .social-media a:nth-child(4) i:hover{
+    color: #41E25E;
+}
+.container-fluid-custome .social-media a:nth-child(5) i:hover{
+    color: #0077B5;
+}
+
+
+
+@media screen and (max-width:730px){
+    #hidden-xs{
+        display: none;
+    }
+}

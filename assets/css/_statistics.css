@@ -1,0 +1,28 @@
+.statistics-section-wrapper{
+    background-color: rgb(255, 145, 1);
+    height: auto;
+    margin-top: 350px;
+}
+.statistics-section-wrapper i{
+    font-size: 50px;
+    margin-top: 25px;
+    color: whitesmoke;
+}
+.statistics-section-wrapper .count{
+    color: whitesmoke;
+    font-size: 26px;
+}
+.statistics-section-wrapper .count-title{
+    font-size: 18px;
+    margin: 30px;
+    color: whitesmoke;
+}
+.statistics-custome{
+    text-align: center;
+    transition: .5s;
+}
+@media screen and (max-width:767px){
+    .statistics-custome {
+        zoom: 60%;
+    }
+}

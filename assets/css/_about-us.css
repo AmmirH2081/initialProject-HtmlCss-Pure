@@ -1,0 +1,72 @@
+.about-us-container{
+    padding: 60px;
+    background-image: url('../img/aerial-view-business-team (2).jpg');
+    background-size: cover;
+    background-position: center;
+    background-attachment: fixed;
+    background-repeat: no-repeat;
+}
+.about-us-content{
+    width: 30%;
+    height: auto;
+    overflow:hidden;
+}
+.about-us-container h4{
+    border-bottom: 1px solid lightgray;
+    padding-bottom: 10px;
+    font-size: 20px;
+    color: whitesmoke;
+}
+.about-us-container p{
+    padding-top: 20px;
+    font-size: 16px;
+    line-height: 30px;
+    color: whitesmoke;
+}
+.about-us-container a{
+    background-color: rgb(255, 192, 75);
+    color: whitesmoke;
+    padding: 6px;
+    border-radius: 8px;
+    font-size: 14px;
+    margin-top: 10px;
+    float: left;
+    transition: .5s;
+}
+.about-us-container a:hover{
+    background-color: rgb(255, 143, 16);
+    border-radius: 0px 10px 0px 10px;
+}
+
+
+@media screen and (max-width:1200px){
+    .about-us-container{
+        background-image: url('../img/aerial-view-business-team.jpg');
+        background-size: cover;
+        zoom: 70%;
+    }
+    .about-us-content{
+        width: 50%;
+        
+    }
+}
+@media screen and (max-width:767px){
+    .about-us-container{
+        background-image: none;
+        background-color: rgb(251, 251, 251);
+        border-radius: 20px;
+        border: 1px solid rgb(241, 239, 239);
+        box-shadow: 0px 0px 30px lightgray;
+    }
+    .about-us-content{
+        width: 100%;
+        
+    }
+    .about-us-content h4{
+        color: rgb(41, 41, 41);
+        
+    }
+    .about-us-content p{
+        color: rgb(43, 43, 43);
+    }
+}

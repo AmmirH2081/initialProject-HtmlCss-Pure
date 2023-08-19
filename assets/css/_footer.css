@@ -1,0 +1,163 @@
+.footer-section-wrapper{
+    background-color: #041121;
+    height: auto;
+    margin-top: 250px;
+}
+.footer-section-wrapper .copy-right{
+    color: whitesmoke;
+    text-align: center;
+    border-top:1px solid rgb(44, 44, 87);
+    padding: 10px;
+    font-size: 14px;
+}
+.footer-section-wrapper .describe{
+    color: whitesmoke;
+    padding: 16px;
+    /* padding:16px 0; */
+}
+.footer-section-wrapper .describe a i{
+    font-size: 38px;
+    transform: rotate(-18deg);
+    color: #b4d212;
+    padding-left: 5px;
+    vertical-align: -5px;
+}
+.footer-section-wrapper .describe p{
+    font-size: 14px;
+    margin-top: 14px;
+    color: rgb(216, 216, 216);
+}
+.footer-section-wrapper .describe a{
+    color: whitesmoke;
+    font-size: 16px;
+}
+.footer-section-wrapper .service{
+    padding: 28px 16px;
+    /* padding:16px 0; */
+}
+.footer-section-wrapper .service h6{
+    color: whitesmoke;
+    font-size: 16px;
+    border-bottom: 1px solid rgb(44, 44, 87);
+    padding-bottom: 10px;
+}
+.footer-section-wrapper .service ul li a{
+    color: rgb(216, 216, 216);
+    transition: .5s;
+}
+.footer-section-wrapper .service ul{
+    font-size: 15px;
+    padding-top: 6px;
+}
+.footer-section-wrapper .service ul li{
+    font-size: 14px;
+    margin-bottom: 5px;
+}
+.footer-section-wrapper .service i{
+    color: whitesmoke;
+    font-size: 8px;
+    padding-left: 3px;
+}
+.footer-section-wrapper .service ul li a:hover{
+    color:yellow ;
+    padding-right: 10px;
+}
+.footer-section-wrapper .social{
+    color: whitesmoke;
+    padding: 28px 16px;
+    /* padding:16px 0; */
+}
+.footer-section-wrapper .social h6{
+    color: whitesmoke;
+    font-size: 16px;
+    border-bottom: 1px solid rgb(44, 44, 87);
+    padding-bottom: 10px;
+}
+.footer-section-wrapper .social a i{
+    color: whitesmoke;
+    transition: .2s;
+    font-size: 16px;
+}
+.footer-section-wrapper .social ul{
+    direction: ltr;
+    text-align: center;
+    padding-top: 10px;
+}
+.footer-section-wrapper .social ul a{
+    padding: 5px;
+}
+.footer-section-wrapper .social ul a:nth-child(1) i:hover{
+    color:#32A5E0;
+    font-size: 18px;
+}
+.footer-section-wrapper .social ul a:nth-child(2) i:hover{
+    color:#F200CD;
+    font-size: 18px;
+}
+.footer-section-wrapper .social ul a:nth-child(3) i:hover{
+    color:#32A5E0;
+    font-size: 18px;
+}
+.footer-section-wrapper .social ul a:nth-child(4) i:hover{
+    color:#41E25E;
+    font-size: 18px;
+}
+.footer-section-wrapper .social ul a:nth-child(5) i:hover{
+    color:#0077B5;
+    font-size: 18px;
+}
+.footer-section-wrapper .social form{
+    position: relative;
+    margin-top: 30px;
+}
+.footer-section-wrapper .social form input{
+    border-radius: 5px;
+}
+.footer-section-wrapper .social form input[type=text]{
+    height: 36px;
+    width: 100%;
+    padding: 10px;
+    border: none;
+    outline: none;
+}
+.footer-section-wrapper .social form input[type=submit]{
+    position: absolute;
+    height: 100%;
+    left: 0;
+    top: 0;
+    border: none;
+    background-color: orange;
+    color: whitesmoke;
+    height: 36px;
+    padding: 0 10px;
+    outline: none;
+    cursor: pointer;
+}
+.footer-section-wrapper .social form input::placeholder{
+    font-size: 12px;
+}
+.footer-section-wrapper .contact-us{
+    padding: 28px 16px;
+    /* padding:16px 0; */
+}
+.footer-section-wrapper .contact-us h6{
+    color: whitesmoke;
+    font-size: 16px;
+    border-bottom: 1px solid rgb(44, 44, 87);
+    padding-bottom: 10px;
+}
+.footer-section-wrapper .contact-us ul{
+    padding-top: 10px;
+    color: rgb(216, 216, 216);
+}
+.footer-section-wrapper .contact-us ul i{
+    padding-bottom: 8px;
+}
+.footer-section-wrapper .contact-us ul i,span{
+    font-size: 14px;
+}
+@media only screen and (max-width:1016px){
+    .footer-section-wrapper .contact-us li i,span{
+        font-size: 12px;
+    }
+}
